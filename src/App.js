@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/style-prop-object */
 import React from 'react';
 import TextButton from './components/textButton'
@@ -27,91 +28,91 @@ function App() {
       <ul className='sg-colors'>
         <li>
           <span className='sg-color-fill sg-primary'></span>
-          <span class="sg-label">$color-brand-primary<br />#5C832F</span>
+          <span className="sg-label">$color-brand-primary<br />#5C832F</span>
         </li>
         <li>
           <span className='sg-color-fill sg-primary-dark'></span>
-          <span class="sg-label">$color-brand-primary-dark<br />#3b4a20</span>
+          <span className="sg-label">$color-brand-primary-dark<br />#3b4a20</span>
         </li>
         <li>
           <span className='sg-color-fill sg-secondary'></span>
-          <span class="sg-label">$color-brand-secondary<br />#5C832F</span>
+          <span className="sg-label">$color-brand-secondary<br />#5C832F</span>
         </li>
         <li>
           <span className='sg-color-fill sg-secondary-dark'></span>
-          <span class="sg-label">$color-brand-secondary-dark<br />#3b4a20</span>
+          <span className="sg-label">$color-brand-secondary-dark<br />#3b4a20</span>
         </li>
       </ul>
-      <ul class="sg-colors">
+      <ul className="sg-colors">
         <li>
-          <span class="sg-color-fill sg-white"></span>
-          <span class="sg-label">$color-white<br />#ffffff</span>
+          <span className="sg-color-fill sg-white"></span>
+          <span className="sg-label">$color-white<br />#ffffff</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-1"></span>
-          <span class="sg-label">$color-gray-1<br />#f7f9f9</span>
+          <span className="sg-color-fill sg-gray-1"></span>
+          <span className="sg-label">$color-gray-1<br />#f7f9f9</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-2"></span>
-          <span class="sg-label">$color-gray-2<br />#d9d9d9</span>
+          <span className="sg-color-fill sg-gray-2"></span>
+          <span className="sg-label">$color-gray-2<br />#d9d9d9</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-3"></span>
-          <span class="sg-label">$color-gray-3<br />#a5a5a5</span>
+          <span className="sg-color-fill sg-gray-3"></span>
+          <span className="sg-label">$color-gray-3<br />#a5a5a5</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-4"></span>
-          <span class="sg-label">$color-gray-4<br />#808080</span>
+          <span className="sg-color-fill sg-gray-4"></span>
+          <span className="sg-label">$color-gray-4<br />#808080</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-5"></span>
-          <span class="sg-label">$color-gray-5<br />#595959</span>
+          <span className="sg-color-fill sg-gray-5"></span>
+          <span className="sg-label">$color-gray-5<br />#595959</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-6"></span>
-          <span class="sg-label"> $color-gray-6<br />#444444</span>
+          <span className="sg-color-fill sg-gray-6"></span>
+          <span className="sg-label"> $color-gray-6<br />#444444</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-gray-7"></span>
-          <span class="sg-label">$color-gray-7<br />#222222</span>
+          <span className="sg-color-fill sg-gray-7"></span>
+          <span className="sg-label">$color-gray-7<br />#222222</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-black"></span>
-          <span class="sg-label">$color-black<br />#000000</span>
+          <span className="sg-color-fill sg-black"></span>
+          <span className="sg-label">$color-black<br />#000000</span>
         </li>
       </ul>
-      <ul class="sg-colors">
+      <ul className="sg-colors">
         <li>
-          <span class="sg-color-fill sg-util-positive"></span>
-          <span class="sg-label">$color-utility-positive<br />#03804d</span>
+          <span className="sg-color-fill sg-util-positive"></span>
+          <span className="sg-label">$color-utility-positive<br />#03804d</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-positive-subtle"></span>
-          <span class="sg-label">$color-utility-positive-subtle<br />#d4f3e6</span>
+          <span className="sg-color-fill sg-util-positive-subtle"></span>
+          <span className="sg-label">$color-utility-positive-subtle<br />#d4f3e6</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-caution"></span>
-          <span class="sg-label">$color-utility-caution<br />#a59b15</span>
+          <span className="sg-color-fill sg-util-caution"></span>
+          <span className="sg-label">$color-utility-caution<br />#a59b15</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-caution-subtle"></span>
-          <span class="sg-label">$color-utility-caution-subtle<br />#fffecf</span>
+          <span className="sg-color-fill sg-util-caution-subtle"></span>
+          <span className="sg-label">$color-utility-caution-subtle<br />#fffecf</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-negative"></span>
-          <span class="sg-label">$color-utility-negative<br />#b12a0b</span>
+          <span className="sg-color-fill sg-util-negative"></span>
+          <span className="sg-label">$color-utility-negative<br />#b12a0b</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-negative-subtle"></span>
-          <span class="sg-label">$color-utility-negative-subtle<br />#fdded8</span>
+          <span className="sg-color-fill sg-util-negative-subtle"></span>
+          <span className="sg-label">$color-utility-negative-subtle<br />#fdded8</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-neutral"></span>
-          <span class="sg-label">$color-utility-neutral<br />#0192d0</span>
+          <span className="sg-color-fill sg-util-neutral"></span>
+          <span className="sg-label">$color-utility-neutral<br />#0192d0</span>
         </li>
         <li>
-          <span class="sg-color-fill sg-util-neutral-subtle"></span>
-          <span class="sg-label">$color-utility-neutral-subtle<br />#d3f2ff</span>
+          <span className="sg-color-fill sg-util-neutral-subtle"></span>
+          <span className="sg-label">$color-utility-neutral-subtle<br />#d3f2ff</span>
         </li>
       </ul>
       <img src={require('./images/fpo_avatar.png')} alt='avatar' />
@@ -119,6 +120,11 @@ function App() {
       <img src={require('./images/fpo_landscape.png')} alt='landscape' />
       <img src={require('./images/fpo_square.png')} alt='square' />
       <img src={require('./images/logo.png')} alt='logo' className='c-logo'/>
+      <h1>Molecules</h1>
+      <a href="#" className="c-block-hero">
+        <img src={require("./images/fpo_hero.png")} alt="Hero" className="c-block-hero__img" />
+        <h2 className="c-block-hero__headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit iopa. (76 characters)</h2>
+      </a>
     </div>
   );
 }
