@@ -31,7 +31,7 @@
  */
 .c-section__title {
 	position: relative;
-	color: $color-gray-73;
+	color: $color-gray-6;
 	margin-bottom: 1.5rem;
 
 	&:after {
@@ -42,7 +42,7 @@
 	    height: 0.3rem;
 	    top: 30px;
 	    left: 1px;
-	    background: $color-gray-35;
+	    background: $color-gray-3;
 	}
 }
 
@@ -51,7 +51,7 @@
  * Section block
  */
 .c-tile-grid {
-	/*background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% $color-gray-73;*/
+	/*background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% $color-gray-6;*/
 	background-size: cover;
 }
 

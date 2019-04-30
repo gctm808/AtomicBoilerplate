@@ -7,8 +7,6 @@
  */
 .c-btn {
 	display: inline-block;
-	background: $color-brand-green-dark;
-	color: $color-white;
 	line-height: 1;
 	font-weight: bold;
 	padding: 1rem 2rem;
@@ -16,9 +14,12 @@
 	border-radius: $border-radius;
 	text-align: center;
 	transition: background 0.2s ease;
+	box-shadow: 1px 1px 4px $color-gray-4;
+	background: $color-brand-primary;
+	color: $color-white;
 
 	&:hover, &:focus {
-		background: $color-brand-green;
+		background: $color-brand-primary-dark;
 		color: $color-white;
 	}
 
@@ -26,10 +27,11 @@
 	 * Disabled button
 	 */
 	&.disabled {
-		background: $color-gray-15;
-		color: $color-gray-50;
+		background: $color-gray-2;
+		color: $color-gray-4;
 	}
 }
+
 
 /**
  * Small button
@@ -44,7 +46,7 @@
 .c-btn-large {
 	padding: $pad-half;
 	text-transform: uppercase;
-	background: $color-gray-50;
+	background: $color-gray-4;
 	font-size: 1.4rem;
 	font-weight: normal;
 }
@@ -62,17 +64,16 @@
     
     &:after {
 	    position: absolute;
-		content: "";
+		content: "\25BA";
 		height: 20px;
 		width: 20px;
-		/*background: url("../../../images/icon-arrowhead.svg") no-repeat;*/
-	    top: 7px;
+	    top: -3px;
 		right: -26px;
 		transition: all 0.2s ease;
 	}
 	
 	&:hover, &:focus {
-	    color: $color-gray-73;
+	    color: $color-gray-6;
 	    
 	    &:after {
 		    right: -28px;
@@ -89,5 +90,5 @@
  */
  
  .c-btn--overlay {
-	 background: $color-gray-35;
+	 background: $color-gray-3;
  }

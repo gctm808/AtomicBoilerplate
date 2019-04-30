@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
                                                 ,,            ,,                          ,,
  .M"""bgd mm                                    db          `7MM        mm         mm   `7MM                                    OO OO OO
@@ -71,6 +72,8 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  * Layout.................Layout styles
  *
  * UTILITIES..............Styles that require a utility class
+ *
+ * STYLE GUIDE............Styling for Style Guide Demo
  *
  */
 /*------------------------------------*\
@@ -242,6 +245,7 @@ input, textarea {
   border: 1px solid #a5a5a5;
   border-radius: 6px;
   padding: 1rem;
+  resize: none;
 }
 
 /**
@@ -708,7 +712,7 @@ abbr {
   transition: all 0.2s ease;
 }
 .c-block-media:hover .c-block-media__headline, .c-block-media:focus .c-block-media__headline {
-  color: #5C832F;
+  color: darkseagreen;
 }
 .c-block-media--small {
   font-size: 0.875rem;
@@ -877,8 +881,6 @@ abbr {
  */
 .c-btn {
   display: inline-block;
-  background: #3b4a20;
-  color: #fff;
   line-height: 1;
   font-weight: bold;
   padding: 1rem 2rem;
@@ -886,12 +888,15 @@ abbr {
   border-radius: 6px;
   text-align: center;
   transition: background 0.2s ease;
+  box-shadow: 1px 1px 4px #808080;
+  background: darkseagreen;
+  color: #fff;
   /**
    * Disabled button
    */
 }
 .c-btn:hover, .c-btn:focus {
-  background: #5C832F;
+  background: #4c5f29;
   color: #fff;
 }
 .c-btn.disabled {
@@ -930,11 +935,10 @@ abbr {
 }
 .c-text-btn:after {
   position: absolute;
-  content: "";
+  content: "►";
   height: 20px;
   width: 20px;
-  /*background: url("../../../images/icon-arrowhead.svg") no-repeat;*/
-  top: 7px;
+  top: -3px;
   right: -26px;
   transition: all 0.2s ease;
 }
@@ -1018,7 +1022,7 @@ abbr {
 .c-footer {
   clear: both;
   overflow: hidden;
-  background: #3b4a20;
+  background: #4c5f29;
   color: #fff;
   line-height: 1.2;
   padding: 1em 0;
@@ -1573,7 +1577,7 @@ abbr {
  * Section block
  */
 .c-tile-grid {
-  /*background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% #444444;*/
+  /*background: url(../../images/sample/hero-mountains.jpg) no-repeat 50% 50% $color-gray-6;*/
   background-size: cover;
 }
 
@@ -1972,6 +1976,128 @@ progress[value]::-webkit-progress-bar {
   .g-max5 > .gi:nth-of-type(5n+1) {
     clear: left;
   }
+}
+
+/*------------------------------------*\
+    $STYLE GUIDE
+\*------------------------------------*/
+.sg-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.sg-colors li {
+  -webkit-box-flex: 1;
+  -ms-flex: auto;
+  flex: auto;
+  padding: 0.3em;
+  margin: 0 0.5em 0.5em 0;
+  min-width: 5em;
+  max-width: 14em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sg-color-fill {
+  display: block;
+  height: 4em;
+  margin-bottom: 0.3em;
+  border-radius: 5px;
+}
+
+.sg-primary {
+  background-color: darkseagreen;
+}
+
+.sg-primary-dark {
+  background-color: #4c5f29;
+}
+
+.sg-secondary {
+  background-color: #65b5fa;
+}
+
+.sg-secondary-dark {
+  background-color: #0171d3;
+}
+
+.sg-white {
+  background-color: #ffffff;
+}
+
+.sg-gray-1 {
+  background-color: #f7f9f9;
+}
+
+.sg-gray-2 {
+  background-color: #d9d9d9;
+}
+
+.sg-gray-3 {
+  background-color: #a5a5a5;
+}
+
+.sg-gray-4 {
+  background-color: #808080;
+}
+
+.sg-gray-5 {
+  background-color: #595959;
+}
+
+.sg-gray-6 {
+  background-color: #444444;
+}
+
+.sg-gray-7 {
+  background-color: #222222;
+}
+
+.sg-black {
+  background-color: #000000;
+}
+
+.sg-util-positive {
+  background-color: #03804d;
+}
+
+.sg-util-positive-subtle {
+  background-color: #d4f3e6;
+}
+
+.sg-util-caution {
+  background-color: #a59b15;
+}
+
+.sg-util-caution-subtle {
+  background-color: #fffecf;
+}
+
+.sg-util-negative {
+  background-color: #b12a0b;
+}
+
+.sg-util-negative-subtle {
+  background-color: #fdded8;
+}
+
+.sg-util-neutral {
+  background-color: #0192d0;
+}
+
+.sg-util-neutral-subtle {
+  background-color: #d3f2ff;
+}
+
+.sg-label {
+  font-size: 90%;
+  line-height: 1;
 }
 
 /*# sourceMappingURL=styles.css.map */

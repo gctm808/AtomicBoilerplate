@@ -24,8 +24,10 @@
  *    second-tier application colors.
  *
  */
- $color-brand-green: #5C832F;
- $color-brand-green-dark: #3b4a20;
+ $color-brand-primary: darkseagreen;
+ $color-brand-primary-dark: #4c5f29;
+ $color-brand-secondary: #65b5fa;
+ $color-brand-secondary-dark: #0171d3;
 
 /*
  * Neutral Colors
@@ -34,13 +36,13 @@
  *    read https://medium.com/eightshapes-llc/color-in-design-systems-a1c80f65fa3#.brevrq67p
  */
 $color-white: #fff;
-$color-gray-02: #f7f9f9;
-$color-gray-15: #d9d9d9;
-$color-gray-35: #a5a5a5;
-$color-gray-50: #808080;
-$color-gray-65: #595959;
-$color-gray-73: #444444;
-$color-gray-87: #222222;
+$color-gray-1: #f7f9f9;
+$color-gray-2: #d9d9d9;
+$color-gray-3: #a5a5a5;
+$color-gray-4: #808080;
+$color-gray-5: #595959;
+$color-gray-6: #444444;
+$color-gray-7: #222222;
 $color-black: #000;
 
 $color-dim-50: rgba(0,0,0,0.5);
@@ -65,24 +67,24 @@ $color-utility-neutral-subtle: #d3f2ff;
   * 1) These are non-linked text colors, such as body copy.
   */
 $color-text: $color-black;
-$color-text-subtle: $color-gray-50;
+$color-text-subtle: $color-gray-4;
 
 /*
  * Heading Colors
  * 1) These are non-linked heading colors, such as h2, h3, etc.
  */
 $color-heading: $color-black;
-$color-heading-accent: $color-gray-87;
+$color-heading-accent: $color-gray-7;
 
 /*
  * Text Link Colors
  * 1) These are for linked text, such as a link found within an article,
  *    navigation link, footer link, etc.
  */
-$color-text-link: $color-gray-87;
-$color-text-link-hover: $color-gray-73;
+$color-text-link: $color-gray-7;
+$color-text-link-hover: $color-gray-6;
 $color-text-link-visited: $color-black;
-$color-text-link-active: $color-gray-87;
+$color-text-link-active: $color-gray-7;
 
 $color-text-link-light: $color-white;
 $color-text-link-light-hover: $color-white;
@@ -93,7 +95,7 @@ $color-text-link-light-visited: $color-white;
  * 1) Border colors are used as decoration or dividers, such as as a seperator
  *    for navigation items, block borders, etc.
  */
-$color-border: $color-gray-50;
+$color-border: $color-gray-4;
 
 
 

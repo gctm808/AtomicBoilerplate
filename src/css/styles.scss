@@ -73,6 +73,8 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  *
  * UTILITIES..............Styles that require a utility class
  *
+ * STYLE GUIDE............Styling for Style Guide Demo
+ *
  */
 
 /*------------------------------------*\
@@ -135,3 +137,9 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
     $LAYOUT
 \*------------------------------------*/
 @import "scss/layout/layout";
+
+
+/*------------------------------------*\
+    $STYLE GUIDE
+\*------------------------------------*/
+@import "scss/styleguide/styleguide";
