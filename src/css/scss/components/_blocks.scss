@@ -49,6 +49,7 @@
 
     .c-block-hero:hover &, .c-block-hero:focus & {
         background: $color-gray-6;
+        color: $color-brand-primary;
     }
  }
 
@@ -171,6 +172,7 @@
 
     .c-block-tout:hover &, .c-block-tout:focus & {
         padding-bottom: 2rem;
+        color: $color-brand-primary;
     }
 }
 

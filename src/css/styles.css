@@ -697,6 +697,7 @@ abbr {
 }
 .c-block-hero:hover .c-block-hero__headline, .c-block-hero:focus .c-block-hero__headline {
   background: #444444;
+  color: darkseagreen;
 }
 
 /*------------------------------------*\
@@ -804,6 +805,7 @@ abbr {
 }
 .c-block-tout:hover .c-block-tout__headline, .c-block-tout:focus .c-block-tout__headline {
   padding-bottom: 2rem;
+  color: darkseagreen;
 }
 
 /*------------------------------------*\
@@ -943,7 +945,7 @@ abbr {
   transition: all 0.2s ease;
 }
 .c-text-btn:hover, .c-text-btn:focus {
-  color: #444444;
+  color: darkseagreen;
 }
 .c-text-btn:hover:after, .c-text-btn:focus:after {
   right: -28px;
@@ -957,6 +959,9 @@ abbr {
  */
 .c-btn--overlay {
   background: #a5a5a5;
+}
+.c-btn--overlay:hover, .c-btn--overlay:focus {
+  background-color: darkseagreen !important;
 }
 
 /*------------------------------------*\
@@ -1143,6 +1148,14 @@ abbr {
 }
 .c-field__note a {
   text-decoration: underline;
+}
+
+.c-field input {
+  box-shadow: 1px 1px 4px #808080;
+}
+
+textarea {
+  box-shadow: 1px 1px 4px #808080;
 }
 
 /*------------------------------------*\
@@ -1525,7 +1538,7 @@ abbr {
   width: 3rem;
   height: 0.5rem;
   bottom: 0;
-  background: #a5a5a5;
+  background: darkseagreen;
 }
 
 /*------------------------------------*\

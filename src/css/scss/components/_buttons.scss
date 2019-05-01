@@ -73,7 +73,7 @@
 	}
 	
 	&:hover, &:focus {
-	    color: $color-gray-6;
+	    color: $color-brand-primary; 
 	    
 	    &:after {
 		    right: -28px;
@@ -91,4 +91,8 @@
  
  .c-btn--overlay {
 	 background: $color-gray-3;
+
+	&:hover, &:focus {
+		background-color: $color-brand-primary !important;
+	}
  }
