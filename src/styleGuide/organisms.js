@@ -6,6 +6,7 @@ import Form from '../components/organisms/form';
 import MediaList from '../components/organisms/mediaList';
 import ToutList from '../components/organisms/toutList';
 import PageTitle from '../components/organisms/pageTitle';
+import MediaListSection from '../components/organisms/mediaListSection';
 
 const organisms = () => {
     return (
@@ -17,6 +18,7 @@ const organisms = () => {
             <MediaList />
             <ToutList />
             <PageTitle />
+            <MediaListSection />
         </div>
     );
 };
