@@ -7,6 +7,7 @@ import MediaList from '../components/organisms/mediaList';
 import ToutList from '../components/organisms/toutList';
 import PageTitle from '../components/organisms/pageTitle';
 import MediaListSection from '../components/organisms/mediaListSection';
+import TextBlob from '../components/organisms/textBlob';
 
 const organisms = () => {
     return (
@@ -19,6 +20,7 @@ const organisms = () => {
             <ToutList />
             <PageTitle />
             <MediaListSection />
+            <TextBlob />
         </div>
     );
 };
