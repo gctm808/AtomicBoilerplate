@@ -1,13 +1,18 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import '../../css/styles.css';
 import LogoLink from '../molecules/logoLink';
 import Nav from '../molecules/nav';
 
+
 const Header = () => {
     return (
-        <header class="c-header" role="banner">
+        <header className="c-header" role="banner">
             <LogoLink img='logo.png' link='#' />
-            <Nav />
+            <div className="c-header__controls">
+                <a id='navLink' href="#" className="nav-toggle nav-toggle-menu icon-menu"><span className="is-vishidden">Menu</span></a>
+                <Nav />
+            </div>
         </header>
     );
 };

@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Atoms from './styleGuide/atoms';
 import Molecules from './styleGuide/molecules';
 import Organisms from './styleGuide/organisms';
+import Template from './styleGuide/template';
 
 //ReactDOM.render(<Atoms />, document.getElementById('root'));
-ReactDOM.render(<Organisms />, document.getElementById('root'));
+ReactDOM.render(<Template />, document.getElementById('root'));

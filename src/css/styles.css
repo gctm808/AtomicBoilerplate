@@ -1223,6 +1223,220 @@ textarea {
 }
 
 /*------------------------------------*\
+    #ICONS
+\*------------------------------------*/
+/**
+ * Use the following CSS code if you want to use data attributes for inserting your icons
+ */
+[data-icon]:before {
+  font-family: "icons";
+  content: attr(data-icon);
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Icons and icon pseudo-elements
+ */
+.icon-twitter:before, .icon-stumbleupon:before, .icon-pinterest:before, .icon-linkedin:before, .icon-google-plus:before, .icon-search:before, .icon-play:before, .icon-menu:before, .icon-arrow-left:before, .icon-arrow-right:before, .icon-bubble:before, .icon-facebook:before, .icon-feed:before, .icon-youtube:before, .icon-tag:before, .icon-tumblr:before, .icon-instagram, .icon-podcast, .icon-apple, .icon-android, .icon-arrow:after, .icon-envelope:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/**
+ * Twitter icon
+ */
+.icon-twitter:before {
+  content: "t";
+}
+
+/**
+ * Stumbleupon icon
+ */
+.icon-stumbleupon:before {
+  content: "u";
+}
+
+/**
+ * Pinterest icon
+ */
+.icon-pinterest:before {
+  content: "p";
+}
+
+/**
+ * LinkedIn icon
+ */
+.icon-linkedin:before {
+  content: "i";
+}
+
+/**
+ * Google plus icon
+ */
+.icon-google-plus:before {
+  content: "g";
+}
+
+/**
+ * Icon search
+ */
+.icon-search:before {
+  content: "s";
+}
+
+/**
+ * Play button icon
+ */
+.icon-play:before {
+  content: "a";
+}
+
+/**
+ * Menu icon
+ */
+.icon-menu:before {
+  content: "☰";
+}
+
+/**
+ * Arrow left icon
+ */
+.icon-arrow-left:before {
+  content: "#";
+}
+
+/**
+ * Arrow right icon
+ */
+.icon-arrow-right:before {
+  content: "$";
+}
+
+/**
+ * Bubble icon
+ */
+.icon-bubble:before {
+  content: "%";
+}
+
+/**
+ * Facebook icon
+ */
+.icon-facebook:before {
+  content: "f";
+}
+
+/**
+ * Feed icon
+ */
+.icon-feed:before {
+  content: "'";
+}
+
+/**
+ * YouTube icon
+ */
+.icon-youtube:before {
+  content: "y";
+}
+
+/**
+ * Tag icon
+ */
+.icon-tag:before {
+  content: "(";
+}
+
+/**
+ * Tumblr icon
+ */
+.icon-tumblr:before {
+  content: "m";
+}
+
+/**
+ * Instagram icon
+ */
+.icon-instagram:before {
+  content: '"';
+}
+
+/**
+ * Podcast icon
+ */
+.icon-podcast:before {
+  content: "&";
+}
+
+/**
+ * Android icon
+ */
+.icon-android:before {
+  content: ")";
+}
+
+/**
+ * Twitter icon
+ */
+.icon-apple:before {
+  content: "*";
+}
+
+/**
+ * Envelope icon
+ */
+.icon-envelope:before {
+  content: "+";
+}
+
+/**
+ * Arrow icon
+ */
+.icon-arrow:after {
+  content: "a";
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/**
+ * Play icon
+ */
+.icon-play:before {
+  font-size: 0.7rem;
+  padding-left: 0.2em;
+}
+
+/**
+ * Play box icon
+ */
+.icon-play-box {
+  display: block;
+  margin-left: 2em;
+}
+
+/**
+ * Play box icon before
+ */
+.icon-play-box:before {
+  padding: 0.25em;
+  background: #808080;
+  color: #fff;
+  margin-left: -1.7rem;
+  margin-right: 0.5em;
+}
+
+/*------------------------------------*\
     #LOGO
 \*------------------------------------*/
 .c-logo {
@@ -1989,6 +2203,28 @@ progress[value]::-webkit-progress-bar {
   .g-max5 > .gi:nth-of-type(5n+1) {
     clear: left;
   }
+}
+
+/*------------------------------------*\
+    $LANDING PAGE
+\*------------------------------------*/
+/*------------------------------------*\
+    #LANDING PAGE
+\*------------------------------------*/
+.landing {
+  min-height: 94vh;
+  background-color: #d9d9d9;
+}
+.landing .divider {
+  display: flex;
+}
+
+.headers {
+  flex: 70%;
+}
+
+.contact {
+  flex: 30%;
 }
 
 /*------------------------------------*\

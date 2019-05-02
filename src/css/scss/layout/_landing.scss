@@ -1,0 +1,21 @@
+/*------------------------------------*\
+    #LANDING PAGE
+\*------------------------------------*/
+
+.landing {
+    min-height: 94vh;
+    background-color: $color-gray-2;
+
+    .divider {
+        display: flex;
+    }
+}
+
+
+.headers {
+    flex: 70%;
+}
+
+.contact {
+    flex: 30%;
+}
