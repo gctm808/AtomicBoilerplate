@@ -13,3 +13,8 @@ How to use:
     -rounded edges?
     -box-shadow?
     -gradient/solid fill?
+
+4. Molecules
+
+5. Organisms
+   -Does navbar need hover dropdowns?
