@@ -2,6 +2,14 @@ Atomic Design fits perfectly in the form of individualized React Components. Thi
 
 How to use:
 
-Clone or Download
+1. Clone or Download
 
-Npm install
+2. Npm install
+
+3. Atoms
+  -Define primary/secondary colors
+  -Choose fonts
+  -Reshape button
+    -rounded edges?
+    -box-shadow?
+    -gradient/solid fill?
