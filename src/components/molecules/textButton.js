@@ -1,10 +1,10 @@
 import React from 'react';
 import '../../css/styles.css';
 
-const TextButton = () => {
+const TextButton = (props) => {
     return(
         // eslint-disable-next-line jsx-a11y/anchor-is-valid
-        <a href='#' className='c-text-btn'>Text Button</a>
+        <a href={props.link} className='c-text-btn' target="_blank" rel='noopener noreferrer'>{props.name}</a>
     )
 }
 

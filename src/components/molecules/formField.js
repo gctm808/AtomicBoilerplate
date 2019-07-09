@@ -5,7 +5,7 @@ const FormField = (props) => {
     return (
         <div className="c-field">
             <label for="field-id" className="c-field__label">{props.label}</label>
-            <input id="field-id" type="text" placeholder="Placeholder" value="" />
+            <input id="field-id" type="text" placeholder={props.placeholder} value="" />
         </div>
     );
 };

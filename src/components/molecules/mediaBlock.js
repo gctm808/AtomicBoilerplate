@@ -10,15 +10,17 @@ const MediaBlock = (props) => {
     };
 
     return (
-        <a href="#" className="c-block-media c-block-media--">
-            <div className="c-block-media__media">
-                <img src={require(`../../images/${media.src}`)} alt='square' className="c-block-media__img" />
-            </div>
-            <div className="c-block-media__body">
-                <h2 className="c-block-media__headline">{media.headline}</h2>
-                <p className="c-block-media__excerpt">{media.excerpt}</p>
-	        </div>
-        </a>
+        <div>
+            <a href="#" className="c-block-media c-block-media--">
+                <div className="c-block-media__media">
+                    <img src={require(`../../images/${media.src}`)} alt='square' className="c-block-media__img" />
+                </div>
+                <div className="c-block-media__body">
+                    <h2 className="c-block-media__headline">{media.headline}</h2>
+                    <p className="c-block-media__excerpt">{media.excerpt}</p>
+                </div>
+            </a>
+        </div>
     );
 };
 

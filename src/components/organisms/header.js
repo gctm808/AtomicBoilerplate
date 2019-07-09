@@ -7,13 +7,15 @@ import Nav from '../molecules/nav';
 
 const Header = () => {
     return (
-        <header className="c-header" role="banner">
-            <LogoLink img='logo.png' link='#' />
-            <div className="c-header__controls">
-                <a id='navLink' href="#" className="nav-toggle nav-toggle-menu icon-menu"><span className="is-vishidden">Menu</span></a>
-                <Nav />
-            </div>
-        </header>
+        <div>
+            <header className="c-header" role="banner">
+                <LogoLink img='logo.png' link=' ' />
+                <div className="c-header__controls">
+                    <a id='navLink' href="#" className="nav-toggle nav-toggle-menu icon-menu"><span className="is-vishidden">Menu</span></a>
+                    <Nav />
+                </div>
+            </header>
+        </div>
     );
 };
 
